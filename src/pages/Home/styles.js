@@ -63,6 +63,7 @@ export const NewNote = styled(Link)`
 
   background-color: ${({ theme }) => theme.COLORS.ORANGE};
   border: none;
+  color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
   display: flex;
   align-items: center;
