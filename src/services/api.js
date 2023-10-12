@@ -2,5 +2,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://rocketnotes-api-cadastro.herokuapp.com",
+  // baseURL: "https://rocketnotes-api-cadastro.herokuapp.com",
+  baseURL: "https://api-cadastro-five.vercel.app",
+
 });
